@@ -3,12 +3,6 @@
 	"model": {
 		"filename": ""
 	},
-	"damage": 84,
-	"splash_damage": 0,
-	"splash_radius": 0,
-	"initial_velocity": 150.0,
-	"max_velocity": 150.0,
-	"lifetime": 2,
 	"fx_trail": {
 		"filename": "/pa/units/land/tank_light_laser/tank_light_laser_proj.pfx",
 		"offset": [0.0,
@@ -20,5 +14,11 @@
 			"audio_cue": "/SE/Impacts/shell_tank",
 			"effect_spec": "/pa/units/land/tank_light_laser/tank_light_laser_exp.pfx"
 		}
-	}	
+	},
+	"damage": 84,
+	"splash_damage": 0,
+	"splash_radius": 0,
+	"initial_velocity": 150.0,
+	"max_velocity": 150.0,
+	"lifetime": 2
 }
